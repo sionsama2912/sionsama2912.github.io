@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width. initial-scale=1.0">
+        <link rel="stylesheet" href="style1.css">
+        <link rel="stylesheet" href="res1.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+        <title>THPT Sóc Sơn</title>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index1.html"><img src="image/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">TRANG CHỦ</a></li>
+                        <li><a href="about.html">VỀ CHÚNG TÔI</a></li>
+                        <li><a href="bgh.html">BAN GIÁM HIỆU</a></li>
+                        <li><a href="sk.html">SỰ KIỆN</a></li>
+                        <li><a href="contact.html">LIÊN HỆ</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Sự kiện</h1>
+        </section>
+        <section class="nice-place">
+            <div class="container">
+                <h1>Sự kiện nổi bật</h1>
+                <div class="nice-place-content row">
+                    <div class="nice-place-item">
+                        <div class="nice-place-img">
+                            <img src="image/ht.jpg" alt="">
+                        </div>
+                        <div class="nice-place-text">
+                            <h2>Hội trường</h2>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <p>Ngày truyền thống của trường và tháng 3 hàng năm</p>
+                            <button>Tham gia</button>
+                        </div>
+                    </div>
+                    <div class="nice-place-item">
+                        <div class="nice-place-img">
+                            <img src="image/mu.jpg" alt="">
+                        </div>
+                        <div class="nice-place-text">
+                            <h2>Tiếp sức mùa thi</h2>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <p>CLB Tình nguyện trong đợt "Tiếp sức mùa thi" kì thi THPTQG 2021</p>
+                            <button>Tham gia</button>
+                        </div>
+                    </div>
+                    <div class="nice-place-item">
+                        <div class="nice-place-img">
+                            <img src="image/kg.jpg" alt="">
+                        </div>
+                        <div class="nice-place-text">
+                            <h2>Lễ trưởng thành</h2>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <p>Lễ trưởng thành cho học sinh K32</p>
+                            <button>Tham gia</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        
+        
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0px";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        <script src="script1.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>

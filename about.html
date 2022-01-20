@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width. initial-scale=1.0">
+        <link rel="stylesheet" href="style1.css">
+        <link rel="stylesheet" href="res1.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+        <title>THPT Sóc Sơn</title>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index1.html"><img src="image/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">TRANG CHỦ</a></li>
+                        <li><a href="about.html">VỀ CHÚNG TÔI</a></li>
+                        <li><a href="bgh.html">BAN GIÁM HIỆU</a></li>
+                        <li><a href="sk.html">SỰ KIỆN</a></li>
+                        <li><a href="contact.html">LIÊN HỆ</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Về chúng tôi</h1>
+        </section>
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>THPT Sóc Sơn nằm trong top những trường cấp 3 trên địa bàn huyện Sóc Sơn - Hà Nội có chất lượng giảng dạy tốt</h1>
+                    <p>
+                        Trường THPT Sóc Sơn được ra mắt năm 1985, đáp ứng nhu cầu phát triển giáo dục của nhân dân địa phương, khi mới thành lập trường gặp rất nhiều khó khăn tuy nhiên với quyết tâm cao của lãnh đạo huyện cùng với đội ngũ cán bộ nhân viên nhà trường vừa tiến hành giáo dục đào tạo cho học sinh, vừa tích cực xây dựng cơ sở vật chất nhà trường, bước đầu đã đạt được những thành công nhất định. Ngày 28/04/1986 nhà trường được Bộ Giáo dục ra quyết định công nhận là một trường THPT trong cả nước.
+
+Trường THPT Sóc Sơn hiện có khoảng hơn 90 cán bộ, giáo viên, trong đó có 4 cán bộ quản lý, 13 đồng chí có bằng Thạc sỹ, 4 đồng chí đang theo học cao học, số còn lại đều đạt chuẩn, được chia thành 6 tổ chuyên môn và 1 tổ văn phòng. Nhà trường luôn có định hướng phát triển rõ ràng trong từng giai đoạn, nâng cao chất lượng dạy và học đáp ứng yêu cầu đổi mới, đội ngũ giáo viên luôn không ngừng học hỏi, trau dồi kinh nghiệm, vận dụng sáng tạo những phương pháp dạy học mới nhằm phát huy tối đa khả năng học tập của học sinh. Không phụ sự kỳ vọng của chính quyền và nhân dân trong huyện.
+                    </p>
+                    <a href="index1.html" class="hero-btl">KHÁM PHÁ</a>
+                </div>
+                <div class="about-col">
+                    <img src="image/about.jpg">
+                </div>
+            </div>
+        </section>
+        
+        <section class="footer">
+            <h4>Về chúng tôi</h4>
+            <p>Chúng tôi sẽ luôn chờ và chào đón các bạn.</p>
+            <div class="icons">
+                <a href="https://www.facebook.com/profile.php?id=100040954873493"><i class="fa fa-facebook-square" aria-hidden="true"> </i></a>
+                <a href="https://github.com/hacvukhoaidau"><i class="fa fa-github" aria-hidden="true"></i> </i></a>
+            </div>
+            <p>Made with <i class="fa fa-heart" aria-hidden="true"></i> by NNN</p>
+        </section>
+        
+        
+        
+        
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0px";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        <script src="script1.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>

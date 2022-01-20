@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width. initial-scale=1.0">
+        <link rel="stylesheet" href="style1.css">
+        <link rel="stylesheet" href="res1.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+        <title>THPT Sóc Sơn</title>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index1.html"><img src="image/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">TRANG CHỦ</a></li>
+                        <li><a href="about.html">VỀ CHÚNG TÔI</a></li>
+                        <li><a href="bgh.html">BAN GIÁM HIỆU</a></li>
+                        <li><a href="sk.html">SỰ KIỆN</a></li>
+                        <li><a href="contact.html">LIÊN HỆ</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Ban giám hiệu</h1>
+        </section>
+        <section class="team section-pading">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2 data-title="Những thầy cô tâm huyết">Ban giám hiệu</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="team-items" data-aos="fade-up" data-aos-duration="3000">
+                        <img src="image/Sinh.jpg" alt="">
+                        <div class="team-items-text">
+                            <h2>Nguyễn Minh Sinhn</h2>
+                            <span>Phó Hiệu Trưởng</span>
+                        </div>
+                    </div>
+                    <div class="team-items" data-aos="fade-up" data-aos-duration="3000">
+                        <img src="image/thanh.jpg" alt="">
+                        <div class="team-items-text">
+                            <h2>Nguyễn Thị Diệu Thanh</h2>
+                            <span>Hiệu Trưởng</span>
+                        </div>
+                    </div>
+                    <div class="team-items" data-aos="fade-up" data-aos-duration="3000">
+                        <img src="image/binh.jpg" alt="">
+                        <div class="team-items-text">
+                            <h2>Ngô Sỹ Bình</h2>
+                            <span>Phó Hiệu Trưởng</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>>
+        
+        <section class="footer">
+            <h4>Về chúng tôi</h4>
+            <p>Chúng tôi sẽ luôn chờ và chào đón các bạn.</p>
+            <div class="icons">
+                <a href="https://www.facebook.com/profile.php?id=100040954873493"><i class="fa fa-facebook-square" aria-hidden="true"> </i></a>
+                <a href="https://github.com/hacvukhoaidau"><i class="fa fa-github" aria-hidden="true"></i> </i></a>
+            </div>
+            <p>Made with <i class="fa fa-heart" aria-hidden="true"></i> by NNN</p>
+        </section>
+        
+        
+        
+        
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0px";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        <script src="script1.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>
